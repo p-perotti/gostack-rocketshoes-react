@@ -13,7 +13,7 @@ export default function Home() {
         />
         <strong>Tênis</strong>
         <span>R$99,00</span>
-        <button>
+        <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
           </div>
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <strong>Tênis</strong>
         <span>R$99,00</span>
-        <button>
+        <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
         />
         <strong>Tênis</strong>
         <span>R$99,00</span>
-        <button>
+        <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
           </div>
@@ -55,7 +55,7 @@ export default function Home() {
         />
         <strong>Tênis</strong>
         <span>R$99,00</span>
-        <button>
+        <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
         />
         <strong>Tênis</strong>
         <span>R$99,00</span>
-        <button>
+        <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
         />
         <strong>Tênis</strong>
         <span>R$99,00</span>
-        <button>
+        <button type="button">
           <div>
             <MdAddShoppingCart size={16} color="#FFF" /> 3
           </div>
