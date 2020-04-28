@@ -10,6 +10,7 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
   }
 
   body {
@@ -19,7 +20,6 @@ export default createGlobalStyle`
 
   border-style, input, button {
     font-size: 14px;
-    font-family: Roboto, sans-serif;
   }
 
   #root {
