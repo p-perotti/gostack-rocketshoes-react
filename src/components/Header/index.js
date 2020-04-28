@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { MdShoppingBasket } from 'react-icons/md';
+import { MdShoppingCart } from 'react-icons/md';
 
 import { Container, Cart } from './styles';
 
 import logo from '../../assets/images/logo.svg';
 
-function Header() {
+function Header({ cartSize }) {
   return (
     <Container>
       <Link to="/">
@@ -18,14 +18,14 @@ function Header() {
       <Cart to="/cart">
         <div>
           <strong>Carrinho</strong>
-          <span>3 itens</span>
+          <span>{cartSize} produto(s)</span>
         </div>
-        <MdShoppingBasket size={36} color="#FFF" />
+        <MdShoppingCart size={36} color="#FFF" />
       </Cart>
     </Container>
   );
 }
 
 export default connect((state) => ({
-  cart: state.cart,
+  cartSize: state.cart.length,
 }))(Header);
